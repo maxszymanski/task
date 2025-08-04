@@ -8,7 +8,7 @@ function ProductCard({ product }: ProductCardProps) {
     return (
         <a
             href="/"
-            className="group flex w-full max-w-[176px] flex-col gap-3 rounded-2xl outline-none focus-within:ring-2 focus-within:ring-darkPink"
+            className="group flex w-full max-w-[176px] flex-col gap-3 rounded-2xl outline-none focus-visible:ring-2 focus-visible:ring-darkPink"
         >
             <img
                 src={product.images[0]}

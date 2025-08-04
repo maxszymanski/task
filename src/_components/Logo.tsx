@@ -4,7 +4,7 @@ function Logo() {
     return (
         <a
             href="/"
-            className="flex shrink-0 items-center gap-4 rounded-xl px-1 py-2 text-lg leading-[23px] font-bold text-dark transition-colors duration-300 outline-none focus-within:ring-2 focus-within:ring-darkPink lg:px-4"
+            className="focus-visible::ring-2 focus-visible::ring-darkPink flex shrink-0 items-center gap-4 rounded-xl px-1 py-2 text-lg leading-[23px] font-bold text-dark transition-colors duration-300 outline-none lg:px-4"
         >
             {' '}
             <span>

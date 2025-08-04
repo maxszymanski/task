@@ -23,7 +23,7 @@ function SearchBox({
             <div className="relative mx-auto w-full max-w-[960px] px-4">
                 <ProductsBox products={products} title="Searched" />
                 <button
-                    className="absolute top-0 right-2 flex cursor-pointer items-center justify-center rounded-2xl border border-transparent bg-white px-5 py-2.5 font-bold text-darkPink transition-colors duration-300 outline-none focus-within:ring-2 focus-within:ring-darkPink hover:border-darkPink"
+                    className="absolute top-0 right-2 flex cursor-pointer items-center justify-center rounded-2xl border border-transparent bg-white px-5 py-2.5 font-bold text-darkPink transition-colors duration-300 outline-none hover:border-darkPink focus-visible:ring-2 focus-visible:ring-darkPink"
                     onClick={clearSearch}
                 >
                     Clear
